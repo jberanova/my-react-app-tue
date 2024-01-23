@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 
-//useNeco - hook
+//useState - vytvari promenou ktera ma svuj vlastni setter - metody ktera prenastavi hodnotu promene 
+//useState(0) - 0 - hodnota ktera se nastavi pocatecne do cookies
 
 export default function Clicker() {
     const [cookies, setCookies] = useState(0);
